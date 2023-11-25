@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         scary: "'Creepster', sans-serif",
       },
+      colors: {
+        lime: "#34F924",
+      },
     },
   },
   plugins: [],

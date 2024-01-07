@@ -8,7 +8,7 @@ export default function Header() {
         <img src="images/tiff.png" className="max-w-xs" />
       </Link>
       <div className="flex justify-center items-center">
-        <h1 className="text-center text-green-600 font-scary text-8xl">
+        <h1 className="text-center text-green-600 font-scary text-8xl animate-pulse">
           Tiff on Tap
         </h1>
         <Navbar />

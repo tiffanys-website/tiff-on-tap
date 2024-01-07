@@ -6,6 +6,12 @@ export default {
       fontFamily: {
         scary: "'Creepster', sans-serif",
       },
+      colors: {
+        lime: "#34F924",
+      },
+    },
+    backgroundImage: {
+      hand: "url('/images/hand.jpg')",
     },
   },
   plugins: [],

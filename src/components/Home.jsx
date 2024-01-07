@@ -9,8 +9,6 @@ export default function Home() {
         TIFF ON TAP
       </h1>
 
-      {/* <img src="/images/tiff.png" className="max-w-sm mt-10" /> */}
-
       <Link to="/main" className="m">
         <Button className="rounded-full bg-white hover:text-green-600 font-scary text-5xl mt-10">
           Enter if you dare

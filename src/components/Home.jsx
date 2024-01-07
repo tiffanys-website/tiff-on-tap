@@ -1,16 +1,19 @@
 import React from "react";
+import Button from "./Button";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div className="bg-black h-screen flex flex-col justify-center items-center">
-      <img
-        src="images/tiff.png"
-        className="w-full sm:w-1/2 md:w-2/3 lg:w-3/4 xl:max-w-screen-md"
-        alt="Tiff on Tap"
-      />
-      <h1 className="text-lime mt-10 mr-20 text-9xl font-scary animate-pulse">
-        Subscribe
+      <h1 className="text-white text-center text-8xl font-scary">
+        Tiff on Tap
       </h1>
+
+      <Link to="/main">
+        <Button style={{ backgroundColor: "white", color: "black" }}>
+          Click Here
+        </Button>
+      </Link>
     </div>
   );
 }

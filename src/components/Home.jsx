@@ -11,7 +11,7 @@ export default function Home() {
 
       <Link to="/main" className="m">
         <Button className="rounded-full bg-white hover:text-green-600 font-scary text-5xl mt-10">
-          Enter if you dare
+          Click Here
         </Button>
       </Link>
     </div>
